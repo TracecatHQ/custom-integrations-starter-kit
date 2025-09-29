@@ -12,6 +12,9 @@ This starter kit contains:
 > [!IMPORTANT]
 > Check out the tutorial on building and syncing custom integrations in our [docs here](https://docs.tracecat.com/tutorials/custom-integrations).
 
+> [!NOTE]
+> When setting your git URL, the correct scheme is: `git+ssh://git@github.com/<username>/<repo>.git` (notice the "/<username>" not ":<username>")
+
 **Note:**
 - You can safely delete example Python integrations files and templates under `custom_actions/`
 - **Do not** remove `pyproject.toml`. This is required for your Tracecat instance to install and run your custom integrations.
